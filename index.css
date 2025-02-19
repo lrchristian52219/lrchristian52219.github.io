@@ -1,0 +1,16 @@
+body{
+    background-color: #f2f2f2;
+    text-align: center;
+    color: black;
+}
+h1 {
+    color: purple;
+}
+
+.assignments {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px dashed purple;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
