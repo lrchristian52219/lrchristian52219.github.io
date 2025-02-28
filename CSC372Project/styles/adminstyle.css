@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.logo-image {
+    width: 150px;
+}
+
+nav a {
+    margin: 0 15px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active {
+    color: #007bff;
+}
+
+nav .signout {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #007bff;
+    background-color: transparent;
+    border: 2px solid #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+nav .signout:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#add-product-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#add-product-button:hover {
+    background-color: #0056b3;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.product-details {
+    flex-grow: 1;
+}
+
+.product-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-details p {
+    margin: 5px 0;
+}
+
+.product-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.product-actions button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-actions .edit-product {
+    background-color: #007bff;
+    color: white;
+}
+
+.product-actions .edit-product:hover {
+    background-color: #0056b3;
+}
+
+.product-actions .delete-product {
+    background-color: #dc3545;
+    color: white;
+}
+
+.product-actions .delete-product:hover {
+    background-color: #c82333;
+}
+
+.product-actions .archive-product {
+    background-color: #6c757d;
+    color: white;
+}
+
+.product-actions .archive-product:hover {
+    background-color: #5a6268;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

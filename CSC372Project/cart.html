@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHorizon</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/Potentiallogo-removebg-preview.png" alt="CyberHorizon Logo" class="logo-image">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="#">Sign In</a>
+            <section class="search-container">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <h2>Your Shopping Cart</h2>
+        <div class="cart-items" id="cart-items">
+            <!-- Example Cart Item -->
+            <div class="cart-item" data-price="100.00">
+                <img src="images/placeholder.jpg" alt="Product Image" class="cart-item-image">
+                <div class="cart-item-details">
+                    <h3>Product Name</h3>
+                    <p>Price: $100.00</p>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" class="quantity" name="quantity" value="1" min="1">
+                    <button class="remove-item">Remove</button>
+                </div>
+                <div class="cart-item-total">
+                    <p>Total: $100.00</p>
+                </div>
+            </div>
+            <!-- Add more cart items as needed -->
+        </div>
+
+        <!-- Cart Summary -->
+        <div class="cart-summary">
+            <p>Subtotal: $<span id="subtotal">100.00</span></p>
+            <p>Tax (6.75%): $<span id="tax">6.75</span></p>
+            <p>Delivery Fee: $<span id="delivery-fee">5.00</span></p>
+            <p>Service Fee: $<span id="service-fee">2.00</span></p>
+            <p>Total: $<span id="total">113.75</span></p>
+            <button class="checkout">Checkout</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
