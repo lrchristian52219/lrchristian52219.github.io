@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A GitHub repository gallery that displays user repositories with details like description, creation date, watchers, and more.">
+        <title>GitHub Repository Gallery</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>GitHub Repository Gallery</h1>
+                <div class="search-box">
+                    <input type="text" id="username" placeholder="Enter GitHub username" aria-label="GitHub username">
+                    <button id="fetchButton" aria-label="Search GitHub repositories">Search</button>
+                </div>
+            </header>
+            <main>
+                <div class="card-container" id="gallery"></div>
+            </main>
+        </div>
+    </body>
+</html>
