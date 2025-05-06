@@ -1,0 +1,47 @@
+#container { width: 500px; 
+    height: 500px; 
+    background: yellow; 
+} 
+#animate { width: 150px; 
+    height: 100px;
+     margin: auto; 
+     background: red; 
+    }
+    #box { width: 150px; 
+        height: 100px; 
+        margin: auto; 
+        background: green; 
+        transition: background .2s linear, border-radius 1s ease-in 1s;
+    }
+    #box:hover { 
+        background: #ff7b29; 
+        border-radius: 50%; 
+    }
+    .stage { 
+        background: #eaeaed; 
+        border-radius: 6px; 
+        height: 165px;
+         position: relative; 
+        } 
+    .ball { 
+        background: #2db34a; 
+        border-radius: 50%; 
+        height: 50px; 
+        position: absolute; 
+        width: 50px; 
+    }
+    @keyframes slide { 
+    0% 
+    { left: 0; top: 0;} 
+    50% 
+    { left: 244px; top: 100px;} 
+    100% 
+    { left: 410px; top: 0;} 
+    }
+    .stage:hover .ball { 
+        /* animation will be set dynamically by JavaScript */
+    }
+
+    .stage:active .ball { 
+        animation-play-state: paused; 
+    }

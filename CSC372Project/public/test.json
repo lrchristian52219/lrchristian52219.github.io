@@ -1,0 +1,11 @@
+[
+    {
+        "id": 40,
+        "name": "Test X",
+        "description": "A futuristic smartphone with a holographic display and advanced AI features.",
+        "price": 999.99,
+        "category_id": 1,
+        "image_url": "images/products/3.jpg",
+        "stock": 50
+    }
+]

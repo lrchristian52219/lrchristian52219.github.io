@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Bulk Upload</title>
+    <link rel="stylesheet" href="styles/adminstyle.css">
+</head>
+<body>
+    
+    <!-- Admin Navigation Bar -->
+    <header>
+        <div class="logo">
+            <img src="images/Potentiallogo-removebg-preview.png" alt="CyberHorizon Logo" class="logo-image">
+        </div>
+        <nav>
+            <a href="admin-products.html" class="active">Admin Products</a>
+            <a href="admin-upload.html">Admin Upload</a>
+            <a href="admin-orders.html">Admin Orders</a> <!-- New link for Admin Orders -->
+            <button id="signout-button" class="signout">Sign Out</button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Bulk Upload Products</h1>
+        <form id="upload-form">
+            <label for="file-input">Upload JSON File:</label>
+            <input type="file" id="json-file" accept=".json">
+            <button type="submit" id="upload-button">Upload</button>
+        </form>
+        <div id="upload-status"></div>
+    </main>
+
+    <script src="javascript/admin-upload.js"></script>
+    <script src="javascript/global.js"></script>
+</body>
+</html>

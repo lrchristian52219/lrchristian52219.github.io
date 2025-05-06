@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/Potentiallogo-removebg-preview.png" alt="CyberHorizon Logo" class="logo-image">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="category.html">Categories</a>
+            <a href="cart.html">Cart</a>
+            <button id="signout-button" class="signout">Sign Out</button>
+            <section class="search-container">
+                <input id="search-bar" type="text" placeholder="Search for products or categories...">
+                <button id="search-button">Search</button>
+                <div id="search-results-container" class="search-results">
+                    <!-- Search results will be dynamically loaded here -->
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <h1 id="category-name" class="centered-title">Categories</h1>
+        <div id="categories-container" class="categories-grid">
+            <!-- Categories will be dynamically loaded here -->
+        </div>
+        <div id="category-container">
+            <!-- Products for a specific category will be dynamically loaded here -->
+        </div>
+    </main>
+
+    <script src="javascript/global.js"></script>
+    <script src="javascript/category.js"></script>
+</body>
+</html>

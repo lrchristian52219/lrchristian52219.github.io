@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meal Plan</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="mealplan.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Campus Food Guide</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mealplan.html">Meal Plan</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="explanation">
+            <p>Click on each item on the left to add it to your meal plan on the right. The total cost will be tallied up automatically.</p>
+        </div>
+
+        <div class="meal-plan-container">
+            <div class="recommended-dishes">
+                <h2>Recommended Dishes</h2>
+                <ul id="dish-list">
+                </ul>
+            </div>
+            <div class="meal-plan">
+                <h2>Your Meal Plan</h2>
+                <ul id="meal-plan-list">
+                </ul>
+                <p>Total: $<span id="total-amount">0.00</span></p>
+            </div>
+        </div>
+    </body>
+</html>

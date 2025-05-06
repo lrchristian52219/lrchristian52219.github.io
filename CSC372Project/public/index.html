@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberHorizon</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="images/Potentiallogo-removebg-preview.png" alt="CyberHorizon Logo" class="logo-image">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="category.html">Categories</a> <!-- New link to category.html -->
+            <a href="cart.html">Cart</a>
+            <button id="signout-button" class="signout">Sign Out</button>
+            <section class="search-container">
+                <input id="search-bar" type="text" placeholder="Search for products or categories...">
+                <button id="search-button">Search</button>
+                <div id="search-results-container" class="search-results">
+                    <!-- Search results will be dynamically loaded here -->
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Splash -->
+    <section class="splash">
+        <img src="images/test.gif" alt="Cyberpunk Animation" class="splash-gif">
+        <div class="splash-overlay"></div>
+        <h1 class="led-text">Welcome to CyberHorizon</h1>
+        <p class="led-text">The future of technology is here. Explore our cutting-edge products and gear to enhance your life.</p>
+        <a href="products.html" class="cta">Explore Now</a>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <h2>Featured Products</h2>
+        <div class="featured-grid" id="featured-grid">
+            <!-- Featured products will be dynamically loaded here -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 CyberHorizon. All Rights Reserved. <a href="#">Privacy Policy</a></p>
+    </footer>
+
+    <script src="javascript/global.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+</html>
